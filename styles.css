@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px; 
+}
+
+.conteudo{
+    width: 100%; /*Largura*/
+    display: flex;    /*Coloca um item do lado do outro*/
+    justify-content: space-between;   /*permite justificar/alinhar os componentes */
+    align-items: center;
+
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    color: #333;
+    font-size: 60px;   /* tamanho da fonte */
+    font-weight: 500;
+    
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+    
+}
+
+
+p {
+    font-size: 16px; /* tamanho da fonte */
+
+
+}
+
+button {
+    background: #017143; /* fundo do elemento */
+    color: #fff;  /* cor do texto */
+    border-radius: 40px; /* arredondamento da borda*/
+    border: none; /* borda do elemento*/
+    cursor: pointer;  /* cursor do mouse */
+    padding: 10px;   /* espaçamento interno */
+    margin-top: 20px;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.Starbucks {
+    width: 340px;
+}
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao-menu:hover{
+    transform: translateY(-30px);
+}
+
+
+    .circulo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #bf48ad;
+        top: 0;
+        left: 0;
+        clip-path: circle(600px at right 800px);
+        z-index: -1;
+}
